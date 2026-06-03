@@ -106,10 +106,6 @@ internal class Program
     }
 
 
-
-
-    //var connector = new MainConnector();
-
     ////Отсоединенная модель
 
     //var data = new DataTable();
@@ -164,56 +160,5 @@ internal class Program
     //}
 
     //Console.WriteLine();
-
-
-
-
-
-    //присоединенная модель
-
-    //bool isConnected = await connector.ConnectAsync();
-
-    //if (isConnected)
-    //{
-    //    Console.WriteLine("Подключено успешно!");
-    //}
-    //else
-    //{
-    //    Console.WriteLine("Ошибка подключения!");
-    //}
-
-    //Console.WriteLine("Данные из присоединенной модели:");
-    //Console.WriteLine();
-
-    //var db = new DbExecutor(connector);
-
-    //var tablename = "NetworkUser";
-
-    //var reader = db.SelectAllCommandReader(tablename);
-
-    //var columnList = new List<string>();
-
-    //for (int i = 0; i < reader.FieldCount; i++)
-    //{
-    //    var name = reader.GetName(i);
-    //    columnList.Add(name);
-    //}
-
-    //for (int i = 0; i < columnList.Count; i++)
-    //{
-    //    Console.Write($"{columnList[i]}\t");
-    //}
-    //Console.WriteLine();
-
-    //while (reader.Read())
-    //{
-    //    for (int i = 0; i < columnList.Count; i++)
-    //    {
-    //        var value = reader[columnList[i]];
-    //        Console.Write($"{value}\t");
-    //    }
-
-    //    Console.WriteLine();
-    //}
 
 }

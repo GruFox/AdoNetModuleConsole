@@ -15,6 +15,8 @@ public class DbExecutor
     {
         this.connector = connector;
     }
+
+    // Метод для отсоединенной модели
     public DataTable SelectAll(string table)
     {
         var selectcommandtext = "select * from " + table;

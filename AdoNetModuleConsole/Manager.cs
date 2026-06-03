@@ -16,7 +16,6 @@ public class Manager
     public Manager()
     {
         connector = new MainConnector();
-
         userTable = new Table();
         userTable.Name = "NetworkUser";
         userTable.ImportantField = "Login";
