@@ -1,22 +1,22 @@
 # AdoNetModuleConsole
 
-Учебный проект по изучению ADO.NET и SQL Server.
+Study project on studying ADO.NET и SQL Server.
 
-## Требования
+## Requirements
 
 - .NET 8
 - SQL Server Express
 - SQL Server Management Studio
 
-## Настройка базы данных
+## Database setup
 
 1. Open SQL Server Management Studio.
 2. Execute Database/CreateDatabase.sql.
 3. Update the connection string if needed.
 
-## Строка подключения
+## Connection string
 
-Используется локальный SQL Server:
+Local SQL Server is used:
 
 ```csharp
 Server=localhost\SQLEXPRESS;
@@ -25,6 +25,6 @@ Trusted_Connection=True;
 TrustServerCertificate=True;
 ```
 
-## Запуск
+## Launch
 
-Запустить проект AdoNetModuleConsole.
+Launch a project AdoNetModuleConsole.
